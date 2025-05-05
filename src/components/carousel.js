@@ -4,10 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 import Google from '../../public/assets/goggle.svg';
 import App from '../../public/assets/app.svg';
-import iPhone from '../../public/assets/iphone.svg';
+import iPhone from '../../public/assets/iPhone.svg';
 
 const slides = [
   
