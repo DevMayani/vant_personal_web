@@ -69,11 +69,11 @@ const Blog = () => {
               <div className="flex items-center justify-between text-gray-400 text-xs md:text-sm mt-2">
                 <div className="flex items-center gap-1 md:gap-2">
                   <Image src={Calender} alt="calendar-img"  className="h-3 w-3 md:h-5 md:w-5 lg:h-4 lg:w-4"/>
-                <span className="text-xs md:text-xl lg:text-sm">{item.date}</span>
+                <span className="text-xs md:text-xl lg:text-sm text-[#3F3F3F]">{item.date}</span>
                 </div>
                 <div className="flex items-center gap-1 md:gap-2">
-                  <Image src={Clock} alt="clock-img"  className="h-3 w-3 md:h-5 md:w-5 lg:h-4 lg:w-4"/>
-                  <span>{item.minRead}</span>
+                  <Image src={Clock} alt="clock-img"  className="h-3 w-3 md:h-6 md:w-6 lg:h-4 lg:w-4"/>
+                  <span className="text-xs md:text-xl lg:text-sm text-[#3F3F3F]">{item.minRead}</span>
                 </div>
                
               </div>
@@ -81,10 +81,10 @@ const Blog = () => {
                 {item.title}
               </h2>
               <div className="flex items-center gap-1 md:gap-2">
-              <p className="text-[#32AE4C] text-xs md:text-xl lg:text-sm">
+              <p className="text-[#32AE4C] text-xs md:text-2xl lg:text-sm">
               Read More
               </p>
-                  <Image src={Arrow} alt="arrow-img"  className="h-3 w-3 md:h-5 md:w-5 lg:h-4 lg:w-4"/>
+                  <Image src={Arrow} alt="arrow-img"  className="h-3 w-3 md:h-6 md:w-6 lg:h-4 lg:w-4"/>
                 </div>
               
             
@@ -94,7 +94,7 @@ const Blog = () => {
       </div>
       {/* View More Button */}
 <div className="flex justify-center mt-10">
-  <button className="font-inter font-semibold bg-[#32AE4C] hover:bg-[#27913c] transition-colors text-white px-6 py-3 rounded-full text-sm md:text-lg">
+  <button className="font-inter font-semibold bg-[#32AE4C] hover:bg-[#27913c] transition-colors text-white px-6 py-3 rounded-full text-sm md:text-2xl lg:text-lg">
     View All Blog
   </button>
 </div>

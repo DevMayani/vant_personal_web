@@ -60,10 +60,12 @@ const SectionSix = () => {
 
     <div className='flex flex-col lg:flex-row mt-8 md:mt-20 lg:mt-18 px-6 py-8 md:px-16 md:py-16 xl:px-32 xl:py-24 bg-[#FCFCFC] gap-4 md:gap-10'>
     <div className='flex-1 lg:flex-2 flex flex-col gap-6 '>
-    <button className="flex items-center justify-center gap-1 text-[#32AE4C] border border-[#32AE4C] tracking-wider px-2 md:px-4 py-1 md:py-2 lg:py-1 rounded-full text-xs md:text-2xl lg:text-base xl:text-sm w-[35%] lg:w-[33%] xl:w-[25%]">
+   <div className='flex justify-center lg:justify-start'>
+   <button className=" flex items-center justify-center gap-1 text-[#32AE4C] border border-[#32AE4C] tracking-wider px-2 md:px-4 py-1 md:py-2 lg:py-1 rounded-full text-xs md:text-2xl lg:text-base xl:text-sm">
           <GoDotFill className="w-3 h-3 md:w-6 md:h-6 lg:w-4 lg:h-4" />
-          Testimonies
+          <p className="whitespace-now-rap">Testimonies</p>
         </button>
+   </div>
         <p className="text-[#202020] font-bold text-sm md:text-3xl lg:text-2xl xl:text-2xl tracking-wider ">
         Discover Why Vant is Their <br className='hidden lg:block' /> Go-To Choice
         </p>

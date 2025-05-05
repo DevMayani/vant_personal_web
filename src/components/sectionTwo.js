@@ -186,7 +186,7 @@ useEffect(() => {
             </button>
           </div>
 
-          <p className="font-semibold mt-2 md:mt-4 text-sm md:text-4xl lg:text-2xl xl:text-3xl">
+          <p className="font-semibold text-center lg:text-start mt-2 md:mt-4 text-sm md:text-4xl lg:text-2xl xl:text-3xl">
             All your money needs in <br className="hidden lg:block" /> one app
           </p>
 

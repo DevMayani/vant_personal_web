@@ -31,11 +31,11 @@ const SectionThree = () => {
         </p>
       </div>
       
-      <div>
+      <div className='flex flex-col gap-y-4 md:gap-y-10 lg:gap-y-0'>
 
 
    
-      <div className='flex flex-col lg:flex-row mt-8 py-5  gap-4'>
+      <div className='flex flex-col lg:flex-row mt-8 py-0 lg:py-2  gap-4 md:gap-8 lg:gap-4'>
        
         <div className='flex-1 lg:flex-3 relative rounded-3xl py-5 px-[16px] md:p-10 lg:p-10 lg:px-6'  style={{
         backgroundImage: `url('${bgImageOne}')`,
@@ -85,7 +85,7 @@ const SectionThree = () => {
 
 
  
-      <div className='flex flex-col lg:flex-row-reverse mt-8 py-5  gap-4'>
+      <div className='flex flex-col lg:flex-row-reverse mt-0 lg:mt-8 py-0 lg:py-2  gap-4 md:gap-8 lg:gap-4 '>
        
        <div className='flex-1 lg:flex-3 relative rounded-3xl py-5 px-[16px] md:p-10 lg:p-10 lg:px-6'  style={{
        backgroundImage: `url('${bgImageOne}')`,
@@ -134,7 +134,7 @@ const SectionThree = () => {
 
 
 
-      <div className='flex flex-col lg:flex-row mt-8 py-5  gap-4'>
+      <div className='flex flex-col lg:flex-row mt-0 lg:mt-8 py-0 lg:py-2  gap-4 md:gap-8 lg:gap-4 '>
        
         <div className='flex-1 lg:flex-3 relative rounded-3xl py-5 px-[16px] md:p-10 lg:p-10 lg:px-6'  style={{
         backgroundImage: `url('${bgImageOne}')`,
