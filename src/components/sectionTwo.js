@@ -191,7 +191,7 @@ useEffect(() => {
           </p>
 
           <div className="flex gap-1 max-h-[250px] md:max-h-[400px] lg:max-h-[250px] xl:max-h-[400px] pt-5 md:pt-10 lg:pt-2">
-  {/* Fake Scrollbar */}
+{/* scroller */}
   <div className="relative w-2 md:w-3 lg:w-2 mr-2 my-4 bg-gray-300 rounded-xl overflow-hidden">
     <div
       className="absolute w-full bg-[#32AE4C] rounded-xl transition-all duration-100"
