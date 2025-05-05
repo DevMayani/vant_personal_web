@@ -35,6 +35,7 @@ const SectionFour = () => {
       <div className='flex-1  flex lg:justify-center items-center '>
         <Image src={User} alt='user-image' className='w-full lg:w-auto' />
       </div>
+      
       <div className='flex-1 lg:px-0'>
         <p className='text-sm md:text-3xl lg:text-2xl xl:text-2xl font-bold py-5 md:py-10 lg:py-10'>How it works</p>
         <div className='flex flex-col gap-2 md:gap-6`'>
