@@ -5,6 +5,7 @@ import Logo from '../../public/assets/vantlogo.svg'
 import { IoIosArrowDown } from "react-icons/io";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,9 +13,11 @@ const Navbar = () => {
   return (
     <div className='bg-[#142528] px-6 py-4 md:py-6 md:px-10 lg:px-10 xl:px-32 lg:py-4 ' >
      <div className='flex items-center justify-between'>
+     <Link href='/'>
      <Image src={Logo} 
-      className='w-[20%] lg:w-[8%] h-auto'
+      className='w-[50%] md:w-[90%] lg:w-[60%] xl:w-[65%] h-auto'
       alt='vant_logo' />
+     </Link>
       <ul className='hidden lg:flex items-center justify-between gap-4 xl:gap-12 font-inter cursor-pointer'>
         <li className='text-white text-sm hover:text-[#32AE4C]'>Home</li>
         <div className='text-white flex items-center gap-1 hover:text-[#32AE4C]'>

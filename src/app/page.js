@@ -14,7 +14,6 @@ export default function Home() {
 
   return (
    <div>
-    <Navbar />
     <SectionOne />
     <SectionTwo />
     <SectionThree />
@@ -23,7 +22,6 @@ export default function Home() {
     <SectionSix />
     <Blog />
     <Faq />
-    <Footer />
    </div>
   );
 }
