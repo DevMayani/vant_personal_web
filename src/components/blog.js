@@ -75,7 +75,7 @@ const Blog = () => {
                     <div className="flex items-center gap-1 md:gap-2">
                       <Image src={Clock} alt="clock-img" />
                       <span className="text-[#3F3F3F]">
-                        {new Date(item?.publishedAt).toDateString()}
+                      <span>{item.readTime || "5 min read"}</span>
                       </span>
                     </div>
                   </div>

@@ -5,6 +5,7 @@ import Calendar from "../../../public/assets/calender.svg"
 import Clock from "../../../public/assets/clock.svg";
 import Arrow from "../../../public/assets/arrow.svg";
 import { fetchBlogs } from "../../../sanity/lib/fetchBlog";
+import Link from  "next/link"
 
 export const revalidate = 60; // Cache revalidation for faster fetch
 export default async function BlogPage() {
@@ -40,7 +41,11 @@ export default async function BlogPage() {
             </div>
             <h2 className="text-lg font-semibold mt-2">{item.title}</h2>
             <div className="flex items-center gap-2 mt-2 text-[#32AE4C] text-sm">
-              <p>Read More</p>
+            <Link href={`/blog/${item._id}`}>
+                      <p className="text-[#32AE4C] text-xs md:text-2xl lg:text-sm">
+                        Read More
+                      </p>
+                    </Link>
               <Image src={Arrow} alt="arrow" />
             </div>
           </div>
